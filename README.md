@@ -62,3 +62,7 @@ python3 -m unittest discover -s tests -v
 ## Interpretacao do caso
 
 Neste problema, a maior parte do risco vem da indisponibilidade do gerador, porque sua taxa de indisponibilidade e muito maior que a das linhas. As linhas afetam o resultado principalmente quando o gerador esta disponivel e a transmissao reduz a capacidade de entrega para `400 MW` ou `0 MW`.
+
+## Resultados
+
+Os resultados do caso escolhido foram calculados no jupyter notebook que está na pasta "notebooks". Estão disponíveis versões em pdf e html para facilidade de leitura.
