@@ -1,0 +1,69 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### Ambientes Virtuais (VITAL) ###
+# Ignora pastas de ambientes virtuais comuns
+.venv/
+venv/
+ENV/
+env/
+# Pipenv e Poetry
+.venv
+.poetry/
+
+### IDEs e Editores ###
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+*.swp
+*.swo
+
+### Logs e Bancos de Dados ###
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+### Variáveis de Ambiente (Segurança) ###
+# NUNCA envie seus tokens e senhas
+.env
+.flaskenv
+
+### Testes e Coverage ###
+htmlcov/
+.tox/
+.nosepy
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.coverage
